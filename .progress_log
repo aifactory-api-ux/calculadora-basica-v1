@@ -1,0 +1,141 @@
+{
+  "project_id": "f7391043-37e5-4fcb-9d6e-7e358ffb283d",
+  "project_name": "Calculadora Basica v1",
+  "goal": "Implementar el proyecto: Calculadora Basica v1\n\nVisión: El proyecto 'Calculadora Básica v1' surge de la clara necesidad de proporcionar una herramienta digital sencilla y eficiente para realizar operaciones fundamentales de suma y resta. Actualmente, los usuarios pueden recurrir a métodos manuales o",
+  "last_updated": "2026-04-15T18:35:27.945309Z",
+  "total_items": 5,
+  "completed_count": 5,
+  "status": "completed",
+  "current_item_index": 5,
+  "spec_file": "SPEC.md",
+  "plan_file": "DEVELOPMENT_PLAN.md",
+  "contract_manifest_available": false,
+  "all_files_created": [
+    "backend/shared/__tests__/dataContracts.spec.js",
+    "backend/shared/__tests__/formatNumber.spec.js",
+    "backend/shared/__tests__/validation.spec.js",
+    "backend/shared/dataContracts.js",
+    "backend/shared/formatNumber.js",
+    "backend/shared/validation.js",
+    "backend/.env.example",
+    "backend/Dockerfile",
+    "backend/README.md",
+    "backend/formatters/numberFormatter.js",
+    "backend/routes/calculate.js",
+    "backend/server.js",
+    "backend/validators/operationValidator.js",
+    "frontend/.env.example",
+    "frontend/Dockerfile",
+    "frontend/nginx.conf",
+    "frontend/package.json",
+    "frontend/public/index.html",
+    "frontend/src/components/Calculator.js",
+    "frontend/src/components/ErrorMessage.js",
+    "frontend/src/components/ResultDisplay.js",
+    "frontend/src/hooks/useCalculator.js",
+    "frontend/src/main.js",
+    "frontend/src/styles/calculator.css",
+    "frontend/src/validation.js",
+    "frontend/vite.config.js",
+    ".gitignore",
+    "README.md",
+    "docker-compose.yml",
+    "run.sh",
+    "frontend/README.md",
+    "docs/architecture.md"
+  ],
+  "items": [
+    {
+      "item_number": 1,
+      "title": "Foundation — Data Contracts, Validation, Formatting Utilities",
+      "wave": 1,
+      "files_created": [
+        "backend/shared/__tests__/dataContracts.spec.js",
+        "backend/shared/__tests__/formatNumber.spec.js",
+        "backend/shared/__tests__/validation.spec.js",
+        "backend/shared/dataContracts.js",
+        "backend/shared/formatNumber.js",
+        "backend/shared/validation.js"
+      ],
+      "completed_at": "2026-04-15T18:33:32.860642Z"
+    },
+    {
+      "item_number": 2,
+      "title": "Backend API — Calculation Endpoint & Server",
+      "wave": 2,
+      "files_created": [
+        "backend/.env.example",
+        "backend/Dockerfile",
+        "backend/README.md",
+        "backend/formatters/numberFormatter.js",
+        "backend/routes/calculate.js",
+        "backend/server.js",
+        "backend/validators/operationValidator.js",
+        "frontend/.env.example",
+        "frontend/Dockerfile",
+        "frontend/nginx.conf",
+        "frontend/package.json",
+        "frontend/public/index.html",
+        "frontend/src/components/Calculator.js",
+        "frontend/src/components/ErrorMessage.js",
+        "frontend/src/components/ResultDisplay.js",
+        "frontend/src/hooks/useCalculator.js",
+        "frontend/src/main.js",
+        "frontend/src/styles/calculator.css",
+        "frontend/src/validation.js",
+        "frontend/vite.config.js"
+      ],
+      "completed_at": "2026-04-15T18:34:51.819442Z"
+    },
+    {
+      "item_number": 3,
+      "title": "Frontend — UI, State Hook, Components, Styling",
+      "wave": 2,
+      "files_created": [
+        "backend/.env.example",
+        "backend/Dockerfile",
+        "backend/README.md",
+        "backend/formatters/numberFormatter.js",
+        "backend/routes/calculate.js",
+        "backend/server.js",
+        "backend/validators/operationValidator.js",
+        "frontend/.env.example",
+        "frontend/Dockerfile",
+        "frontend/nginx.conf",
+        "frontend/package.json",
+        "frontend/public/index.html",
+        "frontend/src/components/Calculator.js",
+        "frontend/src/components/ErrorMessage.js",
+        "frontend/src/components/ResultDisplay.js",
+        "frontend/src/hooks/useCalculator.js",
+        "frontend/src/main.js",
+        "frontend/src/styles/calculator.css",
+        "frontend/src/validation.js",
+        "frontend/vite.config.js"
+      ],
+      "completed_at": "2026-04-15T18:34:51.819442Z"
+    },
+    {
+      "item_number": 4,
+      "title": "Infrastructure & Deployment",
+      "wave": 3,
+      "files_created": [
+        ".gitignore",
+        "README.md",
+        "docker-compose.yml",
+        "run.sh"
+      ],
+      "completed_at": "2026-04-15T18:35:11.620924Z"
+    },
+    {
+      "item_number": 5,
+      "title": "Recovery Attempt 1/2: Fix Missing/Defective Files",
+      "wave": 1,
+      "files_created": [
+        "frontend/README.md",
+        "docs/architecture.md"
+      ],
+      "completed_at": "2026-04-15T18:35:27.945309Z"
+    }
+  ]
+}

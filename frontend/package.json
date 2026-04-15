@@ -1,0 +1,22 @@
+{
+  "name": "calculadora-basica-v1-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for Calculadora Básica v1 - Simple calculator with add and subtract operations",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "path": "^0.12.7"
+  },
+  "keywords": [
+    "calculator",
+    "basic",
+    "frontend"
+  ],
+  "author": "",
+  "license": "MIT"
+}

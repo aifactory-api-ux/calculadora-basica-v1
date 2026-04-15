@@ -1,0 +1,59 @@
+# API_CONTRACT.md
+
+## Endpoints
+
+### POST /api/calculate
+
+| Property         | Value                                      |
+|------------------|--------------------------------------------|
+| HTTP Method      | POST                                       |
+| Path             | /api/calculate                             |
+| Auth Required    | No                                         |
+| Request Body     | `OperationRequest`                         |
+| Response 200     | `OperationResponse`                        |
+| Response 400     | `ErrorResponse`                            |
+
+#### Request Body Schema (`OperationRequest`)
+
+| Field     | Type                                | Required |
+|-----------|-------------------------------------|----------|
+| operand1  | number                              | Yes      |
+| operand2  | number                              | Yes      |
+| operation | "add" \| "subtract"                 | Yes      |
+
+Example:
+```json
+{
+  "operand1": 12.5,
+  "operand2": 7.3,
+  "operation": "add"
+}
+```
+
+#### Response 200 Schema (`OperationResponse`)
+
+| Field           | Type     |
+|-----------------|----------|
+| result          | number   |
+| formattedResult | string   |
+
+Example:
+```json
+{
+  "result": 19.8,
+  "formattedResult": "19.80"
+}
+```
+
+#### Response 400 Schema (`ErrorResponse`)
+
+| Field | Type   |
+|-------|--------|
+| error | string |
+
+Example:
+```json
+{
+  "error": "Operación no soportada o datos inválidos"
+}
+```
